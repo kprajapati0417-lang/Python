@@ -37,6 +37,7 @@ print("simple interest :",simple_interest(p,r,y))
 # 6) create lambda function that return true if city passed as 1st argument exist in list passed argument as 2nd argument, if city does not exist return false 
 #     isCityExist('Bhavnagar',['Bombay','Baroda','rajkot']) # false
 #     isCityExist('rajkot',['Bombay','Baroda','rajkot']) # true 
+
 l1 = ['Bombay','Baroda','rajkot']
 p =input("Enter city name:")
 isCityExist = lambda l1,p: True if p in l1 else False
